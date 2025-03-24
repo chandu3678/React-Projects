@@ -44,7 +44,10 @@ export default function TextForms(props) {
                 <button className="btn btn-primary ms-3" onClick={LowerCase}>Convert to LowerCase</button>
                 <button className="btn btn-primary mx-3" onClick={ClearText}>Clear Text</button>
                 <button className="btn btn-primary " onClick={copyText}>Copy Text</button>
-                
+                <div className="textpreview my-2">
+                    <h5>Your Text Preview</h5>
+                    <p> {text} </p>
+                </div>
 
             </div>
 
